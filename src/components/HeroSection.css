@@ -1,0 +1,135 @@
+/* font-family: 'Poppins', sans-serif; */
+.hero-container { 
+  /* border : 2px solid #333; */
+  overflow:hidden;
+  display: flex;
+  flex-direction: row;
+  background-color: #f6f3f0;
+  height: 80vh;
+}
+
+
+.hero-container div {
+   min-height: 200px;
+   padding: 20px;
+   display: flex;
+   flex: 1;
+}
+.hero-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:flex-start;
+  float:left;
+  margin-top: 100px;
+  /* border-right:2px solid #000; */
+}
+
+
+.hero-heading h1{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 4em;
+  text-align: left;
+  margin-left: 120px;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.hero-heading p{
+  margin-left: 120px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.hero-img { 
+  overflow:hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:10px;
+  /* border:2px dashed #ccc; */
+  transition: transform 0.8s;
+}
+.hero-img:hover{
+  transform: scale(1.04);
+  transition: 300ms ease-in-out;
+}
+
+@media screen and (max-width: 960px) {
+   .hero-heading {
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float:left;
+  }
+  .hero-heading h1{
+    text-align: center;
+    margin-left: 0px;
+    font-size: 4.8em;
+  }
+  .hero-img{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 1150px) {
+  .hero-img img{
+    max-width: 450px;
+    max-height: 400px;
+    
+  }
+}
+
+
+/* Hero Bottom CSS */
+
+.bottom-scroll {
+  display: flex;
+  overflow:visible;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #f6f3f0;
+}
+
+.bottom-scroll img{
+  font-size: 6vh;
+  border-radius: 50%;
+  animation: float 4s ease-in-out infinite;
+  cursor:pointer;
+}
+
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.4);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.1);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.4);
+		transform: translatey(0px);
+	}
+}
+
+
+
+@media screen and (max-width: 400px) {
+   .bottom-scroll { 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    /* border-bottom:2px solid rgb(0, 255, 55);     */
+  }
+}
+
