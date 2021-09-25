@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import ErrorPage from './components/pages/ErrorPage';
 import AboutUs from './components/pages/AboutUs';
 import Categories from './components/pages/Categories';
