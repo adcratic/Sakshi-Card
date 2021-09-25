@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/%20sakshi-card/static/css/main.5633ee93.chunk.css",
-    "main.js": "/%20sakshi-card/static/js/main.c19a9c7e.chunk.js",
-    "main.js.map": "/%20sakshi-card/static/js/main.c19a9c7e.chunk.js.map",
-    "runtime-main.js": "/%20sakshi-card/static/js/runtime-main.2b52aab1.js",
-    "runtime-main.js.map": "/%20sakshi-card/static/js/runtime-main.2b52aab1.js.map",
-    "static/js/2.2b6e1f9a.chunk.js": "/%20sakshi-card/static/js/2.2b6e1f9a.chunk.js",
-    "static/js/2.2b6e1f9a.chunk.js.map": "/%20sakshi-card/static/js/2.2b6e1f9a.chunk.js.map",
-    "index.html": "/%20sakshi-card/index.html",
-    "static/css/main.5633ee93.chunk.css.map": "/%20sakshi-card/static/css/main.5633ee93.chunk.css.map",
-    "static/js/2.2b6e1f9a.chunk.js.LICENSE.txt": "/%20sakshi-card/static/js/2.2b6e1f9a.chunk.js.LICENSE.txt",
-    "static/media/AboutPage.css": "/%20sakshi-card/static/media/about_bg.8164f7ad.jpg",
-    "static/media/HeroSection.css": "/%20sakshi-card/static/media/landing_responsive.94063519.jpg"
+    "main.css": "/sakshi-card/static/css/main.104bd01f.chunk.css",
+    "main.js": "/sakshi-card/static/js/main.c19a9c7e.chunk.js",
+    "main.js.map": "/sakshi-card/static/js/main.c19a9c7e.chunk.js.map",
+    "runtime-main.js": "/sakshi-card/static/js/runtime-main.1344c5b0.js",
+    "runtime-main.js.map": "/sakshi-card/static/js/runtime-main.1344c5b0.js.map",
+    "static/js/2.2b6e1f9a.chunk.js": "/sakshi-card/static/js/2.2b6e1f9a.chunk.js",
+    "static/js/2.2b6e1f9a.chunk.js.map": "/sakshi-card/static/js/2.2b6e1f9a.chunk.js.map",
+    "index.html": "/sakshi-card/index.html",
+    "static/css/main.104bd01f.chunk.css.map": "/sakshi-card/static/css/main.104bd01f.chunk.css.map",
+    "static/js/2.2b6e1f9a.chunk.js.LICENSE.txt": "/sakshi-card/static/js/2.2b6e1f9a.chunk.js.LICENSE.txt",
+    "static/media/AboutPage.css": "/sakshi-card/static/media/about_bg.8164f7ad.jpg",
+    "static/media/HeroSection.css": "/sakshi-card/static/media/landing_responsive.94063519.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2b52aab1.js",
+    "static/js/runtime-main.1344c5b0.js",
     "static/js/2.2b6e1f9a.chunk.js",
-    "static/css/main.5633ee93.chunk.css",
+    "static/css/main.104bd01f.chunk.css",
     "static/js/main.c19a9c7e.chunk.js"
   ]
 }
