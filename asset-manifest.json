@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/sakshi-card/static/css/main.104bd01f.chunk.css",
-    "main.js": "/sakshi-card/static/js/main.c19a9c7e.chunk.js",
-    "main.js.map": "/sakshi-card/static/js/main.c19a9c7e.chunk.js.map",
+    "main.js": "/sakshi-card/static/js/main.aa92f05e.chunk.js",
+    "main.js.map": "/sakshi-card/static/js/main.aa92f05e.chunk.js.map",
     "runtime-main.js": "/sakshi-card/static/js/runtime-main.1344c5b0.js",
     "runtime-main.js.map": "/sakshi-card/static/js/runtime-main.1344c5b0.js.map",
-    "static/js/2.2b6e1f9a.chunk.js": "/sakshi-card/static/js/2.2b6e1f9a.chunk.js",
-    "static/js/2.2b6e1f9a.chunk.js.map": "/sakshi-card/static/js/2.2b6e1f9a.chunk.js.map",
+    "static/js/2.eb0b1b6a.chunk.js": "/sakshi-card/static/js/2.eb0b1b6a.chunk.js",
+    "static/js/2.eb0b1b6a.chunk.js.map": "/sakshi-card/static/js/2.eb0b1b6a.chunk.js.map",
     "index.html": "/sakshi-card/index.html",
     "static/css/main.104bd01f.chunk.css.map": "/sakshi-card/static/css/main.104bd01f.chunk.css.map",
-    "static/js/2.2b6e1f9a.chunk.js.LICENSE.txt": "/sakshi-card/static/js/2.2b6e1f9a.chunk.js.LICENSE.txt",
+    "static/js/2.eb0b1b6a.chunk.js.LICENSE.txt": "/sakshi-card/static/js/2.eb0b1b6a.chunk.js.LICENSE.txt",
     "static/media/AboutPage.css": "/sakshi-card/static/media/about_bg.8164f7ad.jpg",
     "static/media/HeroSection.css": "/sakshi-card/static/media/landing_responsive.94063519.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1344c5b0.js",
-    "static/js/2.2b6e1f9a.chunk.js",
+    "static/js/2.eb0b1b6a.chunk.js",
     "static/css/main.104bd01f.chunk.css",
-    "static/js/main.c19a9c7e.chunk.js"
+    "static/js/main.aa92f05e.chunk.js"
   ]
 }
