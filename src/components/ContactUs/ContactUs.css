@@ -13,7 +13,7 @@ button, input {
   
   .background {
     display: flex;
-    min-height: 80vh;
+    height: 650px;
     /* background: linear-gradient(to right, #e7e7e7 0%, #f6f3f0 100%); */
   }
   

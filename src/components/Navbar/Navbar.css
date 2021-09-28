@@ -27,12 +27,12 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
-  transition: transform 0.8s;
+  transition: 0.8s;
 }
 
 .navbar-logo:hover{
   color: #f3b545;
-  transform: scale(1.02);
+  /* transform: scale(1.02); */
   transition: 200ms ease;
   text-decoration: none;
 }

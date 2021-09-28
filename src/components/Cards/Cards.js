@@ -18,7 +18,7 @@ function Cards() {
                 id="image1"
               />
               <CardItem
-                src='images/img1.jpg'
+                src='images/allCards/business2.jpg'
                 text='Personalized Logo'
                 label='Logo'
                 path='/'
