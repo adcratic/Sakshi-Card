@@ -1,9 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./CardCategories.css"
 import Sidebar from './Sidebar'
 import { CardData, TrendingData, PremiumData } from './Sidebar_Data'
 
 function CardCategories() {
+
+    const [viewModal, setviewModal] = useState(false);
+
+    const imageModal =  ()=>{
+
+    }
+
     return (
         <>
             <div className="s-layout">
@@ -17,7 +24,7 @@ function CardCategories() {
                             {TrendingData.map((item)=>{
                                 return(
                                     <div className="card-pallet">
-                                        <img id={item.id} src={item.imgSrc} alt="card"/>
+                                        <img id={item.id} src={item.imgSrc} alt="card" onClick={imageModal}/>
                                         <h4>{item.title}</h4>                               
                                     </div>
                                 )
