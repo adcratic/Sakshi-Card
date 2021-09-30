@@ -14,52 +14,52 @@ function Cards() {
                 src='images/allCards/businessCard.jpg'
                 text='Choose one for your Business'
                 label='Business'
-                path='/'
+                path='/categories'
                 id="image1"
               />
               <CardItem
-                src='images/allCards/business2.jpg'
+                src='images/allCards/logo_design.jpg'
                 text='Personalized Logo'
                 label='Logo'
-                path='/'
+                path='/categories'
               />
               
               
             </ul>
             <ul className='cards__items'>
             <CardItem
-                src='images/allcards/folderDesign.jpg'
+                src='images/allCards/folderDesign.jpg'
                 text='Custom Folder designs'
                 label='Folder'
-                path='/'
+                path='/categories'
                 id="image2"
               />
             <CardItem
-                src='images/img1.jpg'
-                text='Modern Wedding card design'
-                label='Wedding'
-                path='/'
+                src='images/allCards/flyer_design.jpg'
+                text='Flyer design'
+                label='Flyer'
+                path='/categories'
               />
               <CardItem
-                src='images/img1.jpg'
-                text='Letter heads'
-                label='Letter'
-                path='/'
+                src='images/allCards/poster_design.jpg'
+                text='Best Poster designs'
+                label='Poster'
+                path='/categories'
               />
               
             </ul>
             <ul className='cards__items'>
               <CardItem
-                src='images/img1.jpg'
-                text='Check out Wedding card design'
-                label='Premium'
-                path='/'
+                src='images/allCards/letter_heads.jpg'
+                text='Business Letter Heads'
+                label='Letter Heads'
+                path='/categories'
               />
               <CardItem
-                src='images/img1.jpg'
+                src='images/allCards/wedding_card.jpg'
                 text='Check out Wedding card design'
-                label='Premium'
-                path='/'
+                label='Wedding Cards'
+                path='/categories'
               />
               
             </ul>
