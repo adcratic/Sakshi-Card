@@ -1,14 +1,14 @@
-import React, {useState} from 'react'
+import React from 'react'
 import "./CardCategories.css"
 import Sidebar from './Sidebar'
 import { CardData, TrendingData, PremiumData } from './Sidebar_Data'
 
 function CardCategories() {
 
-    const [viewModal, setviewModal] = useState(false);
+    // const [viewModal, setviewModal] = useState(false);
 
     const imageModal =  ()=>{
-
+            
     }
 
     return (
