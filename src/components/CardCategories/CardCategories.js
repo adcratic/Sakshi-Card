@@ -22,10 +22,11 @@ function CardCategories() {
                         <h1><i class="fas fa-fire"></i><span>Trending</span></h1>
                         <div className="card-col-container">
                             {TrendingData.map((item)=>{
+                                const {id,imgSrc,title} = item
                                 return(
                                     <div className="card-pallet">
-                                        <img id={item.id} src={item.imgSrc} alt="card" onClick={imageModal}/>
-                                        <h4>{item.title}</h4>                               
+                                        <img id={id} src={imgSrc} alt="card" onClick={imageModal}/>
+                                        <h4>{title}</h4>                               
                                     </div>
                                 )
                             })}                            
@@ -37,10 +38,11 @@ function CardCategories() {
                         <h1><i class="far fa-file"></i><span>All Cards</span></h1>
                         <div className="card-col-container">
                             {CardData.map((item)=>{
+                                const {id,imgSrc,title} = item
                                 return(
                                     <div className="card-pallet">
-                                        <img id={item.id} src={item.imgSrc} alt="card"/>
-                                        <h4>{item.title}</h4>                               
+                                        <img id={id} src={imgSrc} alt="card"/>
+                                        <h4>{title}</h4>                               
                                     </div>
                                 )
                             })}                            
@@ -52,10 +54,11 @@ function CardCategories() {
                         <h1><i class="far fa-gem"></i><span>Premium</span></h1>
                         <div className="card-col-container">
                             {PremiumData.map((item)=>{
+                                const {id,imgSrc,title} = item
                                 return(
                                     <div className="card-pallet">
-                                        <img id={item.id} src={item.imgSrc} alt="card"/>
-                                        <h4>{item.title}</h4>                               
+                                        <img id={id} src={imgSrc} alt="card"/>
+                                        <h4>{title}</h4>                               
                                     </div>
                                 )
                             })}                            
@@ -67,10 +70,11 @@ function CardCategories() {
                         <h1><i class="far fa-gem"></i><span>Business</span></h1>
                         <div className="card-col-container">
                             {PremiumData.map((item)=>{
+                                const {id,imgSrc,title} = item
                                 return(
                                     <div className="card-pallet">
-                                        <img id={item.id} src={item.imgSrc} alt="card"/>
-                                        <h4>{item.title}</h4>                               
+                                        <img id={id} src={imgSrc} alt="card"/>
+                                        <h4>{title}</h4>                               
                                     </div>
                                 )
                             })}                            

@@ -17,10 +17,11 @@ function Sidebar() {
                     <nav className="s-sidebar__nav">
                         <ul>
                             {SidebarData.map((item)=>{
+                                const {cName,id,icon,title} = item;
                                 return(
                                     <li>
-                                        <Link className={item.cName} to={item.id} spy={true} smooth={true}>
-                                            <i class={item.icon}></i><em>{item.title}</em>
+                                        <Link className={cName} to={id} spy={true} smooth={true}>
+                                            <i class={icon}></i><em>{title}</em>
                                         </Link>
                                     </li>
                                 )

@@ -21,10 +21,11 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             {NavbarData.map((item)=>{
+              const {link,cName,title} = item;
               return(
                 <li className='nav-item'>
-                  <Link to={item.link} className={item.cName} onClick={closeMobileMenu}>
-                    {item.title}
+                  <Link to={link} className={cName} onClick={closeMobileMenu}>
+                    {title}
                   </Link>
                 </li>
               )
