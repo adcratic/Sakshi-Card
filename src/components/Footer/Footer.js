@@ -5,6 +5,15 @@ import emailjs from 'emailjs-com';
 
 const Footer = () => {
 
+    const backToTop = ()=>{
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+          });
+
+    }
+
     function sendEmail(e) {
         e.preventDefault();
     
@@ -57,8 +66,9 @@ const Footer = () => {
                         <div className="col-xl-4 col-lg-4 mb-50">
                             <div className="footer-widget">
                                 <div className="footer-logo">
-                                    <Link to="/">
-                                        <img src="" class="img-fluid" alt="Sakshi Card" />
+                                    <Link to="#" className="footer-logo-link" onClick={backToTop}>
+                                        {/* <img src="" class="img-fluid" alt="Sakshi Card" /> */}
+                                        <h4>Sakshi Card</h4>
                                     </Link>
                                 </div>
                                 <div className="footer-text">
@@ -79,10 +89,10 @@ const Footer = () => {
                                     <h3>Explore</h3>
                                 </div>
                                 <ul>
-                                    <li><Link to="#">Home</Link></li>
-                                    <li><Link to="#">About</Link></li>
-                                    <li><Link to="#">Categories</Link></li>
-                                    <li><Link to="#">Contact</Link></li>
+                                    <li><Link to="/" onClick={backToTop}>Home</Link></li>
+                                    <li><Link to="/about">About</Link></li>
+                                    <li><Link to="/categories">Categories</Link></li>
+                                    <li><Link to="/contact">Contact</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -110,7 +120,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-xl-6 col-lg-6 text-center text-lg-left">
                             <div className="copyright-text">
-                                <p>&copy; Adcratic. All rights reserved</p>
+                                <p>&copy; Sakshi Card. All rights reserved</p>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">

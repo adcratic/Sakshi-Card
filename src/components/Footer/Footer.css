@@ -43,7 +43,12 @@ background-position: 100% 100%;
 }
 .footer-logo {
 margin-bottom: 30px;
+color: #fff;
 }
+.footer-logo h4:hover{
+  color: #ff5e14;
+}
+
 .footer-logo img {
   max-width: 200px;
 }

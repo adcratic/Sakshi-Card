@@ -163,6 +163,7 @@ button, input {
   
   .app-form-button {
     background: none;
+    margin-right: 20px;
     border: none;
     color: #f3b545;
     font-size: 14px;
