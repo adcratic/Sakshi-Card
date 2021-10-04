@@ -124,7 +124,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                            <p style={{color:"#878787"}}>Designed By: <span target="_blank" onClick="window.location.href='https://adcratic.com/';">Adcratic</span> India</p>
+                            <p style={{color:"#878787"}}>Designed By: <span target="_blank" onClick="window.location.href='https://adcratic.com/';">Adcratic</span> Studios</p>
                             {/* <div className="footer-menu">
                                 <ul>
                                     <li><Link to="#">Home</Link></li>
