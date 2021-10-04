@@ -74,6 +74,12 @@
     height: auto;
     margin-bottom: 40px;
 }
+@media screen and (max-width: 770px){
+    .about-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 .about-container div {
     flex: 1;
@@ -111,6 +117,7 @@
     color: rgb(175, 175, 175);
     padding-right: 60px;
     line-height: 30px;
+    margin-left: 20px;
 }
 
 .features-container{

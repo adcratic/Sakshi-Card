@@ -9,7 +9,6 @@ function HeroSection() {
     <>
       <div className="hero-container">
           <div className="hero-heading">
-              {/* <div className="hero-subtitle">PREMIUM DESIGNS</div> */}
               <h1>Imaging-Creating-Printing</h1>
               <p>Our goal is to streamline the merchandise printing process for businesses and ensure that no one has a bad printing experience ever. Our extensive vendor network helps us provide the best in class quality, fast deliveries and the most affordable rates in the market.</p>
           </div>

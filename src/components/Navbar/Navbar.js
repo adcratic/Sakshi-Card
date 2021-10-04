@@ -15,13 +15,17 @@ function Navbar() {
         behavior: 'smooth'
       });
 
-}
+  }
+  const refreshPage = ()=>{
+    window.location.reload();
+    console.log("Page refreshed")
+  }
 
   return (
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={()=>{closeMobileMenu(); backToTop();}}>
+          <Link to='/' className='navbar-logo' onClick={()=>{closeMobileMenu(); backToTop(); refreshPage();}}>
             Sakshi Card
           </Link>
           <div className='menu-icon' onClick={handleClick}>
