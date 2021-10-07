@@ -17,9 +17,9 @@ function Navbar() {
 
   }
   const refreshPage = ()=>{
-    window.location.reload();
-    console.log("Page refreshed")
+    window.addEventListener("dblclick", ()=>window.location.reload());
   }
+ 
 
   return (
     <>

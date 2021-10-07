@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import { Link } from 'react-router-dom'
 import "./Footer.css"
 import emailjs from 'emailjs-com';
@@ -14,17 +14,18 @@ const Footer = () => {
 
     }
 
-    function sendEmail(e) {
+    const form = useRef();
+
+    const sendEmail = (e) => {
         e.preventDefault();
-    
-        emailjs.sendForm('gmail', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-          e.target.reset();
-      }
+
+        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_USER_ID')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
 
     return (
         <>
@@ -105,7 +106,7 @@ const Footer = () => {
                                     <p>Don’t miss to subscribe to our new feeds.</p>
                                 </div>
                                 <div className="subscribe-form">
-                                    <form onSubmit={sendEmail}>
+                                    <form ref={form} onSubmit={sendEmail}>
                                         <input type="email" placeholder="Email Address" name="email"/>
                                         <button type="submit"><i className="fab fa-telegram-plane"></i></button>
                                     </form>
