@@ -9,6 +9,7 @@ function ContactUs() {
     const [result, setresult] = useState(false);
 
     const sendEmail = (e) => {
+
         e.preventDefault();
 
         emailjs.sendForm('service_t6pshh2', 'template_pkx0sqj', form.current, 'user_LMyq1IfdRo9qId3kT5zNd')
