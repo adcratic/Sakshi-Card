@@ -18,7 +18,15 @@ margin-top: 8px;
 .cta-text {
 padding-left: 15px;
 display: inline-block;
+cursor: pointer;
 }
+
+.cta-text h4:hover {
+color: #ff5e14;
+cursor: pointer;
+transition: 300ms;
+}
+
 .cta-text h4 {
 color: #fff;
 font-size: 20px;
@@ -166,4 +174,14 @@ color: #ff5e14;
 .footer-menu li a {
 font-size: 14px;
 color: #878787;
+}
+
+.companyLink{
+  color:#878787;
+  cursor: pointer;
+  transition: 300ms;
+}
+.companyLink:hover{
+  color:#ff5e14;
+  transition: 300ms;
 }

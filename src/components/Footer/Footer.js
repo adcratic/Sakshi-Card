@@ -18,6 +18,26 @@ const Footer = () => {
 
     const [result, setresult] = useState(false)
 
+    const viewMap = ()=>{
+        window.open("https://www.google.co.in/maps/place/Bhagalpur,+Bihar/@25.24035,86.9567866,13433m/data=!3m1!1e3!4m5!3m4!1s0x39f049f79910fbc7:0x9e3efe37aca8e227!8m2!3d25.242453!4d86.9842256");
+    }
+
+    const openLink = ()=>{
+        window.open("https://www.adcratic.com/");
+    }
+
+    const contactNumber= ()=>{
+        window.open("https://wa.me/8872922886");
+    }
+
+    const mailTo = ()=>{
+        const emailTo = "harshmanoor@gmail.com";
+        const emailCC = "";
+        const emailSub = "";
+        const emailBody = "";
+        window.location.href = "mailto:"+emailTo+'?cc='+emailCC+'&subject='+emailSub+'&body='+emailBody;
+    }
+
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -40,7 +60,7 @@ const Footer = () => {
                         <div className="col-xl-4 col-md-4 mb-30">
                             <div className="single-cta">
                                 <i className="fas fa-map-marker-alt"></i>
-                                <div className="cta-text">
+                                <div onClick={viewMap} className="cta-text">
                                     <h4>Find us</h4>
                                     <span>Bhagalpur, Bihar</span>
                                 </div>
@@ -49,7 +69,7 @@ const Footer = () => {
                         <div className="col-xl-4 col-md-4 mb-30">
                             <div className="single-cta">
                                 <i className="fas fa-phone"></i>
-                                <div className="cta-text">
+                                <div className="cta-text" onClick={contactNumber}>
                                     <h4>Call us</h4>
                                     <span>9876543210</span>
                                 </div>
@@ -58,7 +78,7 @@ const Footer = () => {
                         <div className="col-xl-4 col-md-4 mb-30">
                             <div className="single-cta">
                                 <i className="far fa-envelope-open"></i>
-                                <div className="cta-text">
+                                <div className="cta-text" onClick={mailTo}>
                                     <h4>Mail us</h4>
                                     <span>sakshicard@gmail.com</span>
                                 </div>
@@ -130,7 +150,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                            <p style={{color:"#878787"}}>Designed By: <span target="_blank" onClick="window.location.href='https://adcratic.com/';">Adcratic</span> Studios</p>
+                            <p style={{color:"#878787"}}>Designed By: <span target="_blank" className="companyLink" onClick={openLink} >Adcratic Studios</span></p>
                             {/* <div className="footer-menu">
                                 <ul>
                                     <li><Link to="#">Home</Link></li>

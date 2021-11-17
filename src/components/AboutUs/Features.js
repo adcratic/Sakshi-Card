@@ -11,7 +11,7 @@ export default function Features() {
         {
             icon_color: "#ac39ff",
             para : "Every design at reasonable cost",
-            icon: "fas fa-dollar-sign"
+            icon: "fas fa-rupee-sign"
         },
         {
             icon_color: "#68cc45",
