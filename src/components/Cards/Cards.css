@@ -42,6 +42,8 @@ h1 {
   filter: drop-shadow(0 6px 20px rgba(149, 157, 165, 0.2));
   border-radius: 5px;
   overflow: hidden;
+}
+.cards__item__link:hover{
   text-decoration: none;
 }
 
@@ -96,12 +98,20 @@ h1 {
 }
 
 .cards__item__text {
-  color: #333;
+  color: rgb(0, 0, 0);
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
+  text-decoration: none;
+  transition: 200ms;
 }
+
+.cards__item__text:hover {
+  color: rgb(119, 119, 119);
+  transition: 200ms;
+}
+
 
 @media only screen and (min-width: 1200px) {
   .content__blog__container {

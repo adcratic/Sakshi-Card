@@ -79,7 +79,7 @@ function CardCategories() {
                     </div>
 
                     <div className="card-container" id="businessCard">
-                        <h1><i class="far fa-gem"></i><span>Business</span></h1>
+                        <h1><i class="fas fa-briefcase"></i><span>Business</span></h1>
                         <div className="card-col-container">
                             {PremiumData.map((item)=>{
                                 const {id,imgSrc,title} = item
