@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.65935f3f.chunk.css",
-    "main.js": "/static/js/main.3bcd6a03.chunk.js",
-    "main.js.map": "/static/js/main.3bcd6a03.chunk.js.map",
+    "main.css": "/static/css/main.983b7ad8.chunk.css",
+    "main.js": "/static/js/main.85b4745c.chunk.js",
+    "main.js.map": "/static/js/main.85b4745c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.48624801.js",
     "runtime-main.js.map": "/static/js/runtime-main.48624801.js.map",
     "static/js/2.5ffb7d90.chunk.js": "/static/js/2.5ffb7d90.chunk.js",
     "static/js/2.5ffb7d90.chunk.js.map": "/static/js/2.5ffb7d90.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.65935f3f.chunk.css.map": "/static/css/main.65935f3f.chunk.css.map",
+    "static/css/main.983b7ad8.chunk.css.map": "/static/css/main.983b7ad8.chunk.css.map",
     "static/js/2.5ffb7d90.chunk.js.LICENSE.txt": "/static/js/2.5ffb7d90.chunk.js.LICENSE.txt",
     "static/media/AboutPage.css": "/static/media/about_bg.8164f7ad.jpg",
     "static/media/HeroSection.css": "/static/media/landing_responsive.94063519.jpg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.48624801.js",
     "static/js/2.5ffb7d90.chunk.js",
-    "static/css/main.65935f3f.chunk.css",
-    "static/js/main.3bcd6a03.chunk.js"
+    "static/css/main.983b7ad8.chunk.css",
+    "static/js/main.85b4745c.chunk.js"
   ]
 }
