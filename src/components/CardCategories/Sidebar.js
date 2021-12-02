@@ -20,7 +20,7 @@ function Sidebar() {
                                 const {cName,id,icon,title} = item;
                                 return(
                                     <li>
-                                        <Link className={cName} to={id} spy={true} smooth={true}>
+                                        <Link className={cName} to={id} spy={true} smooth={false}>
                                             <i class={icon}></i><em>{title}</em>
                                         </Link>
                                     </li>

@@ -5,6 +5,7 @@ ul {
 .footer-section {
 background: #151414;
 position: relative;
+overflow-x: hidden;
 }
 .footer-cta {
 border-bottom: 1px solid #373636;
@@ -49,12 +50,19 @@ height: 330px;
 background-size: cover;
 background-position: 100% 100%;
 }
-.footer-logo {
+.footer-logo{
 margin-bottom: 30px;
 color: #fff;
 }
+
+.footer-logo-link:hover{
+  text-decoration: none;
+}
+
 .footer-logo h4:hover{
   color: #ff5e14;
+  text-decoration: none;
+  transition: 300ms;
 }
 
 .footer-logo img {
@@ -121,7 +129,7 @@ margin-bottom: 12px;
 }
 .footer-widget ul li a:hover{
 color: #ff5e14;
-/* text-decoration: none; */
+text-decoration: none !important;
 }
 .footer-widget ul li a {
 color: #878787;
@@ -152,29 +160,6 @@ color: #fff;
 font-size: 22px;
 transform: rotate(-6deg);
 }
-.copyright-area{
-background: #202020;
-padding: 25px 0;
-}
-.copyright-text p {
-margin: 0;
-font-size: 14px;
-color: #878787;
-}
-.copyright-text p a{
-color: #ff5e14;
-}
-.footer-menu li {
-display: inline-block;
-margin-left: 20px;
-}
-.footer-menu li:hover a{
-color: #ff5e14;
-}
-.footer-menu li a {
-font-size: 14px;
-color: #878787;
-}
 
 .companyLink{
   color:#878787;
@@ -184,4 +169,43 @@ color: #878787;
 .companyLink:hover{
   color:#ff5e14;
   transition: 300ms;
+}
+
+.copyright-area{
+  height: auto;
+  width: 100%;
+  background-color: #202020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright-container{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  height: 100%;
+  width:74%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.copyright-container p{
+  margin: 0;
+  padding: 10px 10px;
+  color: #878787;
+}
+
+@media screen and (max-width: 768px) {
+  .copyright-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .copyright-container p{
+    font-size: 16px;
+  }
 }

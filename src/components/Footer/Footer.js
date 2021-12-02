@@ -91,8 +91,7 @@ const Footer = () => {
                         <div className="col-xl-4 col-lg-4 mb-50">
                             <div className="footer-widget">
                                 <div className="footer-logo">
-                                    <Link to="#" className="footer-logo-link" onClick={backToTop}>
-                                        {/* <img src="" class="img-fluid" alt="Sakshi Card" /> */}
+                                    <Link to="/" className="footer-logo-link" onClick={backToTop}>
                                         <h4>Sakshi Card</h4>
                                     </Link>
                                 </div>
@@ -141,28 +140,16 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            
             <div className="copyright-area">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-xl-6 col-lg-6 text-center text-lg-left">
-                            <div className="copyright-text">
-                                <p>&copy; Sakshi Card. All rights reserved</p>
-                            </div>
-                        </div>
-                        <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                            <p style={{color:"#878787"}}>Designed By: <span target="_blank" className="companyLink" onClick={openLink} >Adcratic Studios</span></p>
-                            {/* <div className="footer-menu">
-                                <ul>
-                                    <li><Link to="#">Home</Link></li>
-                                    <li><Link to="#">About</Link></li>
-                                    <li><Link to="#">Categories</Link></li>
-                                    <li><Link to="#">Contact</Link></li>
-                                </ul>
-                            </div> */}
-                        </div>
-                    </div>
+                <div className="copyright-container">
+                    <p>&copy; Sakshi Card. All rights reserved</p>
+                    
+                    <p>Designed By: <span target="_blank" className="companyLink" onClick={openLink} >Adcratic Studios</span></p>
+
                 </div>
             </div>
+
         </footer>
         </>
     )

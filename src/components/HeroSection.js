@@ -17,7 +17,7 @@ function HeroSection() {
           </div>
       </div>
       <div className="bottom-scroll">
-            <Link to="bottom-scroll" spy={true} smooth={true}><img src="images/scroll.png" alt="Scroll Down" height="50px" width="50px"/></Link>
+            <Link to="bottom-scroll" spy={true} smooth={false}><img src="images/scroll.png" alt="Scroll Down" height="50px" width="50px"/></Link>
       </div>
       
     </>

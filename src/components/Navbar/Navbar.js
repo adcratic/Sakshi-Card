@@ -36,7 +36,7 @@ function Navbar() {
               const {link,cName,title} = item;
               return(
                 <li className='nav-item'>
-                  <Link to={link} className={cName} onClick={closeMobileMenu}>
+                  <Link to={link} className={cName} onClick={()=>{closeMobileMenu(); backToTop();}}>
                     {title}
                   </Link>
                 </li>
