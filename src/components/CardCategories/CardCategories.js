@@ -7,11 +7,7 @@ import { CardData, TrendingData, PremiumData } from './Sidebar_Data'
 
 function CardCategories() {
 
-    // const [viewModal, setviewModal] = useState(false);
-
-    const imageModal =  ()=>{
-            
-    }
+    
 
     const [showCard, setshowCard] = useState(true);
 
@@ -35,7 +31,7 @@ function CardCategories() {
                                 const {id,imgSrc,title} = item
                                 return(
                                     <div className="card-pallet">
-                                        <img id={id} src={imgSrc} alt="card" onClick={imageModal}/>
+                                        <img id={id} src={imgSrc} alt="card"/>
                                         <h4>{title}</h4>                               
                                     </div>
                                 )
