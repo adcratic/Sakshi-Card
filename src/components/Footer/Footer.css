@@ -52,11 +52,14 @@ background-position: 100% 100%;
 }
 .footer-logo{
 margin-bottom: 30px;
-color: #fff;
 }
 
 .footer-logo-link:hover{
   text-decoration: none;
+}
+
+.footer-logo h4{
+  color: #fff;
 }
 
 .footer-logo h4:hover{
@@ -95,14 +98,14 @@ line-height: 38px;
 border-radius: 50%;
 }
 .facebook-bg{
-background: #3B5998;
+background-color: #3B5998;
 }
 .twitter-bg{
-background: #25D366
+background-color: #25D366
 ;
 }
 .google-bg{
-background: #DD4B39;
+background-color: #DD4B39;
 }
 .footer-widget-heading h3 {
 color: #fff;

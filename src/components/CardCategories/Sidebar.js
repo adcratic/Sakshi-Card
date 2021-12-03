@@ -1,33 +1,34 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./Sidebar.css"
 import { SidebarData } from './Sidebar_Data'
 import { Link } from 'react-scroll'
 
 function Sidebar() {
 
+    const [click, setClick] = useState(false);
+    const handleClick = () => setClick(!click);
+
     return (
         <>
             
                 {/* Sidebar */}
-                <div className="s-layout__sidebar">
-                    <Link className="s-sidebar__trigger" to="#0">
-                        <i className="fa fa-bars"></i>
-                    </Link>
+                <div className="sidebar">
+                    <div className ="sidebar-menu-icon">
+                        <i className={click ? "fas fa-times" : "fas fa-bars"} onClick={handleClick}></i>
+                    </div>
 
-                    <nav className="s-sidebar__nav">
-                        <ul>
-                            {SidebarData.map((item)=>{
-                                const {cName,id,icon,title} = item;
+                    <ul className={click ? "sidebar-menu active" : "sidebar-menu"}>
+                        {SidebarData.map((item, index) => {
+                            const {cName,id,icon,title} = item;
                                 return(
-                                    <li>
+                                    <li className="sidebar-item">
                                         <Link className={cName} to={id} spy={true} smooth={false}>
                                             <i class={icon}></i><em>{title}</em>
                                         </Link>
                                     </li>
                                 )
-                            })}                            
-                        </ul>
-                    </nav>
+                        })}
+                    </ul>
                 </div>
 
         </>

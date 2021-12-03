@@ -18,7 +18,7 @@ function CardCategories() {
     return (
 
         <>
-            <div className="s-layout">
+            <div className="category-page">
                 <Sidebar/>
                 {/* Main Content */}
                 <main className="s-layout__content">

@@ -1,28 +1,28 @@
 export const SidebarData = [
     {
         icon: "fas fa-fire",
-        cName: "s-sidebar__nav-link",
+        cName: "sidebar-link",
         title: "Trending",
         link: "#0",
         id:"trendingCard"
     },
     {
         icon: "far fa-file",
-        cName: "s-sidebar__nav-link",
+        cName: "sidebar-link",
         title: "All Cards",
         link: "#0",
         id:"allCard"
     },
     {
         icon: "far fa-gem",
-        cName: "s-sidebar__nav-link",
+        cName: "sidebar-link",
         title: "Premium",
         link: "#0",
         id:"premiumCard"
     },
     {
         icon: "fas fa-briefcase",
-        cName: "s-sidebar__nav-link",
+        cName: "sidebar-link",
         title: "Business cards",
         link: "#0",
         id:"businessCard"
