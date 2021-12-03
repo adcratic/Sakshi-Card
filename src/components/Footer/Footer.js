@@ -27,7 +27,7 @@ const Footer = () => {
     }
 
     const contactNumber= ()=>{
-        window.open("https://wa.me/8872922886");
+        window.open("https://wa.me/7004435995");
     }
 
     const mailTo = ()=>{
@@ -71,7 +71,7 @@ const Footer = () => {
                                 <i className="fas fa-phone"></i>
                                 <div className="cta-text" onClick={contactNumber}>
                                     <h4>Call us</h4>
-                                    <span>9876543210</span>
+                                    <span>+91 70044 35995</span>
                                 </div>
                             </div>
                         </div>
@@ -102,7 +102,7 @@ const Footer = () => {
                                 <div className="footer-social-icon">
                                     <span>Follow us</span>
                                     <Link to="#"><i class="fab fa-facebook-f facebook-bg"></i></Link>
-                                    <Link to="#"><i class="fab fa-twitter twitter-bg"></i></Link>
+                                    <Link to="#" onClick={contactNumber}><i class="fab fa-whatsapp twitter-bg"></i></Link>
                                     <Link to="#"><i class="fab fa-instagram google-bg"></i></Link>
                                 </div>
                             </div>
