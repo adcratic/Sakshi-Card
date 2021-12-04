@@ -7,13 +7,14 @@ function Sidebar() {
 
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
+    const closeMobileMenu = () => setClick(false);
 
     return (
         <>
             
                 {/* Sidebar */}
                 <div className="sidebar">
-                    <div className ="sidebar-menu-icon">
+                    <div className = "sidebar-menu-icon">
                         <i className={click ? "fas fa-times" : "fas fa-bars"} onClick={handleClick}></i>
                     </div>
 
@@ -22,7 +23,7 @@ function Sidebar() {
                             const {cName,id,icon,title} = item;
                                 return(
                                     <li className="sidebar-item">
-                                        <Link className={cName} to={id} spy={true} smooth={false}>
+                                        <Link onClick={closeMobileMenu} className={cName} to={id} spy={true} smooth={false}>
                                             <i class={icon}></i><em>{title}</em>
                                         </Link>
                                     </li>
