@@ -96,8 +96,7 @@ const Footer = () => {
                                     </Link>
                                 </div>
                                 <div className="footer-text">
-                                    <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-                                    elit,Lorem ipsum dolor sit amet.</p>
+                                    <p>Sakshi Card empowers thousand of businesses  across Bihar to outstand  themselves in the market. Our wide range of quality products at affordable price. Our commitment to helping you promote your business is stronger than ever. We’re confident you’ll be 100% satisfied with our products, quality, design experience and attentive service.</p>
                                 </div>
                                 <div className="footer-social-icon">
                                     <span>Follow us</span>

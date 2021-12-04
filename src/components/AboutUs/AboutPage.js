@@ -21,14 +21,7 @@ const AboutPage = () => {
                 </div>
                 <div class="about-txt">
                     <h1>Who we are?</h1>
-                    <p>Lorem ipsum dolor sit amet. Qui harum Quis sit quae atque eum quia impedit
-                        est eligendi eaque et nostrum autem et minima unde est 
-                        dolor explicabo. Et numquam et quisquam numquam eum voluptatum.<br/><br/>
-                        Lorem ipsum dolor sit amet. Qui harum Quis sit quae atque eum quia impedit
-                        est eligendi eaque et nostrum autem et minima unde est 
-                        dolor explicabo. Et numquam et quisquam numquam eum voluptatum.Et numquam 
-                        et quisquam numquam eum voluptatum. Et numquam et quisquam numquam eum 
-                        voluptatum. Et numquam et quisquam numquam eum voluptatum.
+                    <p>Sakshi Card empowers thousand of businesses across Bihar to outstand themselves in the market. Our wide range of quality products at affordable price. Our commitment to helping you promote your business is stronger than ever. We’re confident you’ll be 100% satisfied with our products, quality, design experience and attentive service.
                      </p>
                 </div>    
             </div>
