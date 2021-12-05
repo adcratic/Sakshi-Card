@@ -75,14 +75,16 @@
     margin-bottom: 40px !important;
     margin-top: 0px !important;
     font-size: 4.5em;
+    font-weight: 500;
   }
   .bottom-scroll{
     background-color:#fcf9f0 !important;
   }
   .hero-heading p{
-    margin-left: 50px;
+    margin-left: 15px;
     font-size: 20px;
-  }.hero-container{
+  }
+  .hero-container{
     background-image: url("landing_responsive.jpg");
     background-repeat: no-repeat;
     background-position: center;

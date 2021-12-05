@@ -82,6 +82,11 @@ font-size: 14px;
     color: #7e7e7e;
 line-height: 28px;
 }
+
+.footer-social-icon{
+  margin-bottom: 20px;
+}
+
 .footer-social-icon span {
 color: #fff;
 display: block;

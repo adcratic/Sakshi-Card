@@ -86,7 +86,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="footer-content pt-5 pb-5">
+                <div className="footer-content pt-4 pb-4">
                     <div className="row">
                         <div className="col-xl-4 col-lg-4 mb-50">
                             <div className="footer-widget">
@@ -96,7 +96,7 @@ const Footer = () => {
                                     </Link>
                                 </div>
                                 <div className="footer-text">
-                                    <p>Sakshi Card empowers thousand of businesses  across Bihar to outstand  themselves in the market. Our wide range of quality products at affordable price. Our commitment to helping you promote your business is stronger than ever. We’re confident you’ll be 100% satisfied with our products, quality, design experience and attentive service.</p>
+                                    <p>Sakshi Card empowers thousand of businesses across Bihar through our design services.</p>
                                 </div>
                                 <div className="footer-social-icon">
                                     <span>Follow us</span>
