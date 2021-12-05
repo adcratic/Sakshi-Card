@@ -29,7 +29,7 @@ export default function Features() {
     return (
         <>
             <div className="features-container">
-                <h1>Why choose <span>Sakshi Card </span>?</h1>
+                <h1>Why choose <span>Sakshi Card</span>?</h1>
                 <div className="features-col-container">
                     {features_data.map((item)=>{
                         const {icon_color,para,icon} = item;

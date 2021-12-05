@@ -104,7 +104,9 @@
   }
 
   .nav-menu.active {
-    background: #ffdf3c;
+    display: flex;
+    justify-content: center;
+    background: #f3b545;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;

@@ -145,6 +145,18 @@
     color: #1d1d1f;
 }
 
+@media screen and (max-width: 450px){
+    .features-container h1{
+        font-size: 26px;
+    }
+    
+    .features-container h1 span{
+        font-size: 26px;
+    }
+
+}
+    
+
 .features-col-container{
     display: flex;
     justify-content: center;
@@ -183,4 +195,18 @@
     transform: scale(1.03);
     transition: 500ms ease;
     box-shadow: rgba(149, 157, 165, 0.2) 2px 3px 10px;
+}
+
+@media screen and (max-width: 450px){
+    .features-col i{
+        font-size: 28px;
+        padding: 20px 0;
+    }
+    
+    .features-col p{
+        font-size: 20px;
+        font-weight: 600;
+        font-family:'Poppins', sans-serif;
+        color: #1d1d1f;
+    }
 }

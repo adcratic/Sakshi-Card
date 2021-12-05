@@ -10,6 +10,11 @@ overflow-x: hidden;
 .footer-cta {
 border-bottom: 1px solid #373636;
 }
+
+.single-cta{
+  margin: 12px 0px;
+}
+
 .single-cta i {
 color: #ff5e14;
 font-size: 30px;
