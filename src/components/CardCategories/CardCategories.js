@@ -1,29 +1,21 @@
-import React, {useState} from 'react'
-import { Loading } from '../Loading/Loading'
+import React from 'react'
 import "./CardCategories.css"
-import Sidebar from './Sidebar'
+// import Sidebar from './Sidebar'
 import { CardData, TrendingData, PremiumData } from './Sidebar_Data'
 
 
 function CardCategories() {
 
     
-
-    const [showCard, setshowCard] = useState(true);
-
-    setTimeout(()=>{
-        setshowCard(false);
-    },1500)
-
     return (
 
         <>
             <div className="category-page">
-                <Sidebar/>
+                {/* <Sidebar/> */}
                 {/* Main Content */}
                 <main className="s-layout__content">
 
-                    {showCard ? <Loading/> : <>
+                    
                     <div className="card-container" id="trendingCard">
                         <h1><i class="fas fa-fire"></i><span>Trending</span></h1>
                         <div className="card-col-container">
@@ -89,7 +81,6 @@ function CardCategories() {
                             
                         </div>                           
                     </div>
-                    </>}
 
                 </main>
             </div>
